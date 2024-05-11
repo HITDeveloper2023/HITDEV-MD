@@ -16,15 +16,15 @@
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
-   * @project_name : Suhail-Md
+   * @project_name : HITDEV-MD
    * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @youtube : https://www.youtube.com/@HITDeveloper2023
+   * @description : HITDEV-MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
    * Created By Suhail Tech Info.
-   * © 2024 Suhail-Md.
+   * © 2024 HITDEV-MD.
 */
 
 
@@ -72,7 +72,7 @@ async(message, match) => {
  try{
 
    message.react("🔍")
-         if (!match) return message.reply(`Give me a user name like ${prefix}github SuhailTechInfo`)
+         if (!match) return message.reply(`Give me a user name like ${prefix}github HITDeveloper2023`)
 
          const { data } = await axios(`https://api.github.com/users/${match}`)
    if(!data) return await message.send(`*_Didn't get any results, Provide valid user name!_*`)
