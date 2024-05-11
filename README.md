@@ -1,4 +1,4 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> HITDEV MD </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
@@ -53,7 +53,7 @@
 
 
 
-<p align="center"> Suhail MD whatsapp bot uses
+<p align="center"> HITDEV MD whatsapp bot uses
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
 <p align="center">
