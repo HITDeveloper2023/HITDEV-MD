@@ -19,16 +19,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Hitdev-Md
-   * @author : Hitdev <https://github.com/HitdevTechInfo>
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
-   * @infoription : Hitdev-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : HITDEV MD
+   * @author : HITDEV <https://github.com/HITDeveloper2023>
+   * @youtube : https://www.youtube.com/c/@HITDeveloper2023
+   * @infoription : HITDEV MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.5 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
-   * © 2023 Hitdev-Md ✭ ⛥.
+   * ┌┤Created By HITDEV Tech Info.
+   * © 2023 HITDEV MD ✭ ⛥.
    * plugin date : 20/12/2023
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR

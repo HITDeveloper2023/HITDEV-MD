@@ -19,16 +19,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Hitdev-Md
-   * @author : Hitdev <https://github.com/HitdevTechInfo>
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
-   * @infoription : Hitdev-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : HITDEV MD
+   * @author : HITDEV <https://github.com/HITDeveloper2023>
+   * @youtube : https://www.youtube.com/c/@HITDeveloper2023
+   * @infoription : HITDEV MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.2 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
-   * © 2023 Hitdev-Md ✭ ⛥.
+   * ┌┤Created By HITDEV Tech Info.
+   * © 2023 HITDEV MD ✭ ⛥.
    * plugin date : 10/6/2023
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -45,9 +45,9 @@ CURRENTLY RUNNING ON BETA VERSION!!
 const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 
-var surl = 'https://github.com/HitdevTechInfo/Hitdev-Md' // Source URL
+var surl = 'https://github.com/HITDeveloper2023/HITDEV-MD' // Source URL
 const number = '923184474176'
-var name = ' Hitdev Tech'
+var name = ' HITDEV Tech'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
 var image = 'https://telegra.ph/file/1e60489705c851f74b55e.jpg'
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
@@ -57,7 +57,7 @@ let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │ Gender    :  ᴍᴀʟᴇ
 │ Age          : 22_
 │ Phone     : wa.me/923184474176
-│ Youtube   : Youtube.com/c/HitdevTechInfo
+│ Youtube   : Youtube.com/c/HITDeveloper2023
 │ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
 
@@ -76,7 +76,7 @@ let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
           let media ;try{ media = await smdBuffer(image) }catch{media = log0}
            const q =await message.bot.fakeMessage("contact",{},name) 
            let contextInfo = {...(await message.bot.contextInfo(name,body,media,1,surl, 2) )}
-           await message.send(text, {contextInfo : contextInfo },"Hitdev",  q )
+           await message.send(text, {contextInfo : contextInfo },"HITDEV",  q )
     }catch(e){ await message.error(`${e}\n\ncommand: intro`,e,false)}
 
 

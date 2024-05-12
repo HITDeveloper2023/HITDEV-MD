@@ -41,11 +41,11 @@
       OWNER_NUMBER="923184474176"
       SESSION_ID = "SESSION_85_23_59_01_kjgfgfclhj"
       THUMB_IMAGE = "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
-      OWNER_NAME = "Hitdev"
+      OWNER_NAME = "HITDEV"
       PREFIX = .
       WARN_COUNT = 3
       DISABLE_PM = "false"
-      THEME= "Hitdev"
+      THEME= "HITDEV"
       MODE = "public"
       ANTILINK_VALUES = "https://,chat.whatsapp.com"
       

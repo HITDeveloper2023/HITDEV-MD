@@ -19,19 +19,19 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Hitdev-Md
-   * @author : Hitdev Tech Info
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
-   * @infoription : Hitdev-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : HITDEV MD
+   * @author : HITDEV Tech Info
+   * @youtube : https://www.youtube.com/c/@HITDeveloper2023
+   * @infoription : HITDEV MD ,A Multi-functional whatsapp user bot.
    * @version 1.3.1 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
-   * © 2023 Hitdev-Md ✭ ⛥.
+   * ┌┤Created By HITDEV Tech Info.
+   * © 2023 HITDEV MD ✭ ⛥.
    * plugin date : 3/28/2023
 **/
-let Owner = "Hitdev";
+let Owner = "HITDEV";
 
 
 /*
@@ -56,8 +56,8 @@ let singleText = async(message, match, {cmdName}) => {
             'pubg5' : 'tao-logo-pubg-truc-tuyen-nhieu-mau-sac-717',
             "pubg6" : 'tao-logo-pubg-phong-cach-chibi-online-721',
         }
-        if (!match) return message.reply(`*_Example : ${prefix+cmdName} Hitdev_*`);
-        return await textToLogoGenerator(message, logo[cmdName] , match ,"Hitdev" , "1")
+        if (!match) return message.reply(`*_Example : ${prefix+cmdName} HITDEV_*`);
+        return await textToLogoGenerator(message, logo[cmdName] , match ,"HITDEV" , "1")
      }catch(e){return await message.error(`${e}\n\ncmdName: ${cmdName}`,e);} 
   }
   //----------------------------------------------------------------------------------

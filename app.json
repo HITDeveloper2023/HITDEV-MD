@@ -1,15 +1,15 @@
 {
   "name": "HITDEV-MD@1.3.4",
   "description": "I am HITDEV-MD Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/HITDeveloper2023",
-  "logo": "https://github.com/HITDeveloper2023/HITDEV-MD/blob/main/lib/assets/Hitdev.jpg?raw=true",
-  "keywords": ["whatsappbot", "HitdevMd", "HITDEV MD bot", "HITDEV-MD", "HitdevMdWhatsaooBot", "HitdevWaBot","HitdevMD","HITDEV MD Whatsapp Bot","multi device"],
-  "success_url": "/Hitdev/",
+  "logo": "https://github.com/HITDeveloper2023/HITDEV-MD/blob/main/lib/assets/HITDEV.jpg?raw=true",
+  "keywords": ["whatsappbot", "HITDEVMd", "HITDEV MD bot", "HITDEV-MD", "HITDEVMdWhatsaooBot", "HITDEVWaBot","HITDEVMD","HITDEV MD Whatsapp Bot","multi device"],
+  "success_url": "/HITDEV/",
   "app_url": "/qr/",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Hitdev Ser",
+      "value": "HITDEV Ser",
       "required" :true
     },   
      
