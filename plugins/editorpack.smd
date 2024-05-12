@@ -17,19 +17,19 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
    * @project_name : HITDEV-MD
-   * @author : Suhail Tech Info
+   * @author : Hitdev Tech Info
    * @youtube : https://www.youtube.com/@HITDeveloper2023
    * @description : HITDEV-MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
-   * Created By Suhail Tech Info.
+   * Created By Hitdev Tech Info.
    * © 2024 HITDEV-MD.
 */
 
 
 
-let Suhail_Md = "HITDEV MD Whatsapp bot md"
+let Hitdev_Md = "HITDEV MD Whatsapp bot md"
 //let baseApi = process.env.API_SMD || global.api_smd || "https://api-smd-1.vercel.app" 
 
 
@@ -113,7 +113,7 @@ smd({
     try{
         let mm =   m.image ? m : m.reply_message && m.reply_message.image ? m.reply_message : false; 
         
-  let too = `*Separate the text with _:_ sign!*\n*Example : ${prefix + smd} Suhail _:_ Bot*`
+  let too = `*Separate the text with _:_ sign!*\n*Example : ${prefix + smd} Hitdev _:_ Bot*`
   if(!mm) {
     let str = `┌───〈 *ᴇᴅɪᴛᴏʀ ᴍᴇɴᴜ*  〉───◆
 │╭─────────────···▸

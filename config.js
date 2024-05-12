@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/HITDeveloper2023/HITDEV-MD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/HITDeveloper2023/HITDEV-MD/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/HITDeveloper2023/HITDEV-MD/blob/main/lib/assets/Hitdev.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x Hitdev",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Hitdev"  ).toUpperCase(),
 
 
 
