@@ -1278,7 +1278,7 @@ CMD ["npm","start" ]
 # heroku.yml file data to run Container
 # build:
 #   docker:
-#       web: HITDEV_Md
+#       web: Hitdev_Md
 # run:
 #   web: npm start
  
