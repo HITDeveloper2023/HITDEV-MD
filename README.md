@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="Suhail-Md" height="400" src="/lib/assets/pk.jpg">
+    <img alt="HITDEV-MD" height="400" src="/lib/assets/pk.jpg">
   </a>
 </p>
     
@@ -63,7 +63,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/HITDeveloper2023/HITDEV-MD"><b>Suhail-Md</b></a> Support Deploy On...
+  <a href="https://github.com/HITDeveloper2023/HITDEV-MD"><b>HITDEV-MD</b></a> Support Deploy On...
 </p>
 
 <p align="center">
@@ -145,7 +145,7 @@
    
 ## 
 
-- *Suhail-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *HITDEV-MD is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
-- *Use Suhail-Md at your own risk by keeping this warning in mind.*
+- *Use HITDEV-MD at your own risk by keeping this warning in mind.*
 

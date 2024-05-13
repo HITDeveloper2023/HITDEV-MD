@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
     "AUTHOR": "Suhail",
-    "theme": "Suhail-Md",
+    "theme": "HITDEV-MD",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -11,7 +11,7 @@
             "UPDATED_LOCAL": "*Successfully Updated!*"
         },  
         "global": {      
-            "botName": "Suhail-Md",
+            "botName": "HITDEV-MD",
             "body": "whatsapp User Bot", 
             "greet2" : "Thanks To Suhail Ser",
             "pic1": "https://telegra.ph/file/ec9bc5038601821f2eb84.jpg", 
