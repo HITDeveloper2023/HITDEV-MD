@@ -1,6 +1,6 @@
 {
   "__JSON__": true,
-  "AUTHOR": "SuhailTechInfo",
+  "AUTHOR": "HITDeveloper2023",
   "Theme": "Friday",
   "LANGCODE": "en",
   "STRINGS": {  
@@ -33,7 +33,7 @@
           "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝒁𝒆𝒓𝒐 𝑻𝒘𝒐*",
           "mention": " Please atleast mention any user bro.",
           "title": "𝐅𝐫𝐢𝐝𝐚𝐲-𝐦𝐝",
-          "footer": "sᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo",
+          "footer": "sᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/HITDeveloper2023",
           "by": "Made by: *CitelVoid*",
           "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
           "success": "Done ✓",
