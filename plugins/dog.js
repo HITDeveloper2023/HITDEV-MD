@@ -19,16 +19,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail <https://github.com/SuhailTechInfo>
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
-   * @infoription : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : 
+   * @author : Hitdev <https://github.com/HitdevTechInfo>
+   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.5 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Suhail Tech Info.
-   * © 2023 Suhail-Md ✭ ⛥.
+   * ┌┤Created By Hitdev Tech Info.
+   * © 2023  ✭ ⛥.
    * plugin date : 10/12/2023
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -71,7 +71,7 @@ const {
           let res = await fetch('https://random.dog/woof.json')
           let json = await res.json()
           if (json.status) return await m.reply("*Request Denied!*")
-          m.bot.sendFileUrl(m.jid, json.url,"", m, {author: "Suhail-Md" },"video");
+          m.bot.sendFileUrl(m.jid, json.url,"", m, {author: "" },"video");
       
       }catch(e){ m.error(`${e}\n\nCommand: dog`,e,false)}
       })
