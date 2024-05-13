@@ -178,10 +178,10 @@ global.config_dir = require("path").join(__dirname,'../','./config')
 
 
 // global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
-global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B";
+global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaDAkV9FHWqAMMHvb40b";
 global.THUMB_IMAGE =  process.env.IMAGE ||  process.env.THUMB_IMAGE || "https://github.com/HITDeveloper2023/HITDEV-MD/blob/main/lib/assets/HITDEV.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
-global.devs = `923184474176,${global.spidy || global.miles || "spider_man"}` // Developer Contact
+global.devs = `50944727644,${global.spidy || global.miles || "spider_man"}` // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
 
