@@ -1,37 +1,37 @@
 {          
     "external": [        
-        {  "name": "Fd (edit-It)","url": "https://gist.githubusercontent.com/HitdevTechInfo/1c29c84bd1890320d587c04e5c24a429/raw"   },
-        {  "name": "AntiDelete","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/delete.js"   },
-        {  "name": "AutoReact","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/areact.js"   },  
-        {  "name": "AntiCall","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/anticall.js"   },
-        {  "name": "AntiVV","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/antivv.js"   },
-        {  "name": "DelSpam", "url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/delspam.js"   }, 
-        {  "name": "FakeReply","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/fakereply.js"   }
+        {  "name": "Fd (edit-It)","url": "https://gist.githubusercontent.com/SuhailTechInfo/1c29c84bd1890320d587c04e5c24a429/raw"   },
+        {  "name": "AntiDelete","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/delete.js"   },
+        {  "name": "AutoReact","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/areact.js"   },  
+        {  "name": "AntiCall","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/anticall.js"   },
+        {  "name": "AntiVV","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/antivv.js"   },
+        {  "name": "DelSpam", "url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/delspam.js"   }, 
+        {  "name": "FakeReply","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/fakereply.js"   }
      ],
 
 
 
     "result": [         
-        {  "name": "drive","url": "https://gist.githubusercontent.com/HitdevTechInfo/37d628fc1b3f518ec53d29db7d6bfaa6/raw"   }, 
-        {  "name": "insta","url": "https://gist.githubusercontent.com/HitdevTechInfo/4ecf80d5dfd264920117ca44a1917fe8/raw"   }, 
-        {  "name": "live","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/live.js"   }, 
-        {  "name": "teddy","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/teddy.js"   },         
-        {  "name": "intro","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/intro.js"   },
-        {  "name": "getall","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/getall.js"   },
-        {  "name": "hack", "url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/hack.js"   },
-        {  "name": "fromurl","url": "https://gist.githubusercontent.com/HitdevTechInfo/e0cdc3c3eeba0f0e2069aa9188294979/raw"   }, 
-        {  "name": "ReactionPack","url": "https://gist.githubusercontent.com/HitdevTechInfo/46087297afd330ad280d7cfc74eccbf8/raw"   },
-        {  "name": "gifsearch","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/gifsearch.js"   },
-        {  "name": "stickersearch","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/stickersearch.js"   },  
-        {  "name": "notes","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/notes.js"   },
-        {  "name": "cricket","url": "https://gist.githubusercontent.com/HitdevTechInfo/8c0c6ea1321edc312aacdc416e3451c5/raw"   },
+        {  "name": "drive","url": "https://gist.githubusercontent.com/SuhailTechInfo/37d628fc1b3f518ec53d29db7d6bfaa6/raw"   }, 
+        {  "name": "insta","url": "https://gist.githubusercontent.com/SuhailTechInfo/4ecf80d5dfd264920117ca44a1917fe8/raw"   }, 
+        {  "name": "live","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/live.js"   }, 
+        {  "name": "teddy","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/teddy.js"   },         
+        {  "name": "intro","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/intro.js"   },
+        {  "name": "getall","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/getall.js"   },
+        {  "name": "hack", "url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/hack.js"   },
+        {  "name": "fromurl","url": "https://gist.githubusercontent.com/SuhailTechInfo/e0cdc3c3eeba0f0e2069aa9188294979/raw"   }, 
+        {  "name": "ReactionPack","url": "https://gist.githubusercontent.com/SuhailTechInfo/46087297afd330ad280d7cfc74eccbf8/raw"   },
+        {  "name": "gifsearch","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/gifsearch.js"   },
+        {  "name": "stickersearch","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/stickersearch.js"   },  
+        {  "name": "notes","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/notes.js"   },
+        {  "name": "cricket","url": "https://gist.githubusercontent.com/SuhailTechInfo/8c0c6ea1321edc312aacdc416e3451c5/raw"   },
         
-        {  "name": "xmedia","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/xmedia.js"   },
-        {  "name": "audio","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/audio.js"   },
-        {  "name": "logo","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/logo.js"   },
-        {  "name": "pubg","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/pubg.js"   },
-        {  "name": "cat","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/cat.js"   },
-        {  "name": "dog","url": "https://raw.githubusercontent.com/HitdevTechInfo/-Media/main/plugins/dog.js"   }
+        {  "name": "xmedia","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/xmedia.js"   },
+        {  "name": "audio","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/audio.js"   },
+        {  "name": "logo","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/logo.js"   },
+        {  "name": "pubg","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/pubg.js"   },
+        {  "name": "cat","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/cat.js"   },
+        {  "name": "dog","url": "https://raw.githubusercontent.com/SuhailTechInfo/-Media/main/plugins/dog.js"   }
     ]
 
 

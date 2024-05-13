@@ -21,14 +21,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Hitdev Tech Info
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @author : Suhail Tech Info
+   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.2 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
+   * ┌┤Created By Suhail Tech Info.
    * © 2023  ✭ ⛥.
    * plugin date : 10/6/2023
 * 

@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Hitdev <https://github.com/HitdevTechInfo>
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @author : Suhail <https://github.com/SuhailTechInfo>
+   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.5 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
+   * ┌┤Created By Suhail Tech Info.
    * © 2023  ✭ ⛥.
    * plugin date : 10/12/2023
 * 

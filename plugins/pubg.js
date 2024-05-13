@@ -20,18 +20,18 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Hitdev Tech Info
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @author : Suhail Tech Info
+   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.3.1 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
+   * ┌┤Created By Suhail Tech Info.
    * © 2023  ✭ ⛥.
    * plugin date : 3/28/2023
 **/
-let Owner = "Hitdev";
+let Owner = "Suhail";
 
 
 /*
@@ -56,7 +56,7 @@ let singleText = async(message, match, {cmdName}) => {
             'pubg5' : 'tao-logo-pubg-truc-tuyen-nhieu-mau-sac-717',
             "pubg6" : 'tao-logo-pubg-phong-cach-chibi-online-721',
         }
-        if (!match) return message.reply(`*_Example : ${prefix+cmdName} Hitdev_*`);
+        if (!match) return message.reply(`*_Example : ${prefix+cmdName} Suhail_*`);
         return await textToLogoGenerator(message, logo[cmdName] , match ,"suhail" , "1")
      }catch(e){return await message.error(`${e}\n\ncmdName: ${cmdName}`,e);} 
   }
