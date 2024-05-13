@@ -1,4 +1,4 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> HITDEV MD </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
