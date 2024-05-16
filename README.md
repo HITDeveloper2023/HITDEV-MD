@@ -25,7 +25,7 @@
 
 
 
-  <a aria-label="Suhail_Md is free to use" href="https://youtube.com/@suhailtechinfo" target="_blank">
+  <a aria-label="Hitdev_Md is free to use" href="https://youtube.com/@suhailtechinfo" target="_blank">
     <img alt="HITDeveloper2023 Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 
