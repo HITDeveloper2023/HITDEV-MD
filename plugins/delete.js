@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
+   * @author : Hitdev Tech Info
+   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.2 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Suhail Tech Info.
+   * ┌┤Created By Hitdev Tech Info.
    * © 2023  ✭ ⛥.
    * plugin date : 11/18/2023
 * 
@@ -41,7 +41,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
 **/
 
 
-let SuhailTechInfo = "Owner";
+let HitdevTechInfo = "Owner";
 let DELCHAT = process.env.DELCHAT || "pm"; // "chat"
 /*
 cmd({

@@ -17,19 +17,19 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
    * @project_name : HITDEV-MD
-   * @author : Suhail Tech Info
+   * @author : Hitdev Tech Info
    * @youtube : https://www.youtube.com/@HITDeveloper2023
    * @description : HITDEV-MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
-   * Created By Suhail Tech Info.
+   * Created By Hitdev Tech Info.
    * © 2024 HITDEV-MD.
 */
 
 
 
-let Hitdev_Md = "Suhail MD Whatsapp bot md"
+let Hitdev_Md = "Hitdev MD Whatsapp bot md"
 
 
 const moment = require('moment-timezone')
