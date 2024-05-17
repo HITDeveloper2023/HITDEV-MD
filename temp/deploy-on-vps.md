@@ -45,7 +45,7 @@
       PREFIX = .
       WARN_COUNT = 3
       DISABLE_PM = "false"
-      THEME= "SUHAIL"
+      THEME= "HITDEV"
       MODE = "public"
       ANTILINK_VALUES = "https://,chat.whatsapp.com"
       

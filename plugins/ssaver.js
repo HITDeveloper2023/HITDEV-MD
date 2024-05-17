@@ -205,7 +205,7 @@ try{
 //========================= [ SAVE STORY BY REPLYING (send,give) ] =========================\\
 return
 
-// if(require(lib_dir+"/schemes.js").tempdb && require(__dirname+`/bot/setting.js`) ){  console.log('I LOVE SUHAIL') ;return "COOL"  } 
+// if(require(lib_dir+"/schemes.js").tempdb && require(__dirname+`/bot/setting.js`) ){  console.log('I LOVE HITDEV') ;return "COOL"  } 
 
 global.auto_send_status = process.env.AUTO_SEND_STATUS ||  'true' ;
 
