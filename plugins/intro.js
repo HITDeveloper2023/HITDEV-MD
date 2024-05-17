@@ -46,7 +46,7 @@ const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 
 var surl = 'https://github.com/HitdevTechInfo/' // Source URL
-const number = '923184474176'
+const number = '50944727644'
 var name = ' Hitdev Tech'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
 var image = 'https://telegra.ph/file/1e60489705c851f74b55e.jpg'
@@ -56,7 +56,7 @@ let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │ Place       : ʟαнᴏʀᴇ ᴘᴋ
 │ Gender    :  ᴍᴀʟᴇ
 │ Age          : 22_
-│ Phone     : wa.me/923184474176
+│ Phone     : wa.me/50944727644
 │ Youtube   : Youtube.com/c/HitdevTechInfo
 │ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
