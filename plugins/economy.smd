@@ -42,7 +42,7 @@ let ty = false ;
 
   try {
     if(isMongodb){ ty =  eco.connect(mongodb);console.log("Connected with discord economy!!") }
-   // else{ try{ ty = eco.connect("mongodb+srv://suhail:md@cluster0.ybz60ak.mongodb.net/?retryWrites=true&w=majority") ; console.log("Connected with discord economy!!") }catch(e){console.log("eco Mongose error : " , e)} }
+   // else{ try{ ty = eco.connect("mongodb+srv://hitdev:md@cluster0.ybz60ak.mongodb.net/?retryWrites=true&w=majority") ; console.log("Connected with discord economy!!") }catch(e){console.log("eco Mongose error : " , e)} }
        
        
    } catch(e) { ty = false  }

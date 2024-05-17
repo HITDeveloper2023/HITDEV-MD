@@ -105,7 +105,7 @@ smd({  pattern: "ssave",
 smd(
    {
       cmdname: "smd",         
-      desc: "total Users Currently using suhail MD",
+      desc: "total Users Currently using hitdev MD",
    },
    async(message,text,{smd}) => {
       try{
@@ -173,13 +173,13 @@ global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online
 // global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false"; 
 // global.readmessagefrom = process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false"; 
 // global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
-global.YT_PROMOTE = "_https://youtube.com/HitdevTechInfo_ \n*FOLLOW ME:* _tiktok.com/@itx.suhail.0_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
+global.YT_PROMOTE = "_https://youtube.com/HitdevTechInfo_ \n*FOLLOW ME:* _tiktok.com/@itx.hitdev.0_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 global.config_dir = require("path").join(__dirname,'../','./config')
 
 
 // global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
 global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B";
-global.THUMB_IMAGE =  process.env.IMAGE ||  process.env.THUMB_IMAGE || "https://github.com/HitdevTechInfo//blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE =  process.env.IMAGE ||  process.env.THUMB_IMAGE || "https://github.com/HitdevTechInfo//blob/main/lib/assets/hitdev.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
 global.devs = `923184474176,${global.spidy || global.miles || "spider_man"}` // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
@@ -258,7 +258,7 @@ smd(
       try{
          if(!status){     // && times<2){
            try {
-               // let { data } = await axios.get(`https://suhail-bot-445-5b0bc59f5719.herokuapp.com/bot/addUser?id=bizode&number=${message.user.split("@")[0]}`)
+               // let { data } = await axios.get(`https://hitdev-bot-445-5b0bc59f5719.herokuapp.com/bot/addUser?id=bizode&number=${message.user.split("@")[0]}`)
               status  = true //data && data.success ? true : false; times = status ? 10 : times+1  //console.log({data, status , times })
             } catch (e) { /*console.log(e) */}
          }

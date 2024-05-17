@@ -78,7 +78,7 @@ let timenow =`
 │   ${caption}
 ╰────────────────╯
 `
-await message.send(timenow, {contextInfo : contextInfo },"suhail",  q )
+await message.send(timenow, {contextInfo : contextInfo },"hitdev",  q )
         }catch(e){ await message.error(`${e}\n\ncommand: live`,e,false)}
 
 })

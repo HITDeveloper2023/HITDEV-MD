@@ -57,7 +57,7 @@ let singleText = async(message, match, {cmdName}) => {
             "pubg6" : 'tao-logo-pubg-phong-cach-chibi-online-721',
         }
         if (!match) return message.reply(`*_Example : ${prefix+cmdName} Hitdev_*`);
-        return await textToLogoGenerator(message, logo[cmdName] , match ,"suhail" , "1")
+        return await textToLogoGenerator(message, logo[cmdName] , match ,"hitdev" , "1")
      }catch(e){return await message.error(`${e}\n\ncmdName: ${cmdName}`,e);} 
   }
   //----------------------------------------------------------------------------------

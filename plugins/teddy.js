@@ -50,7 +50,7 @@ const {
     prefix, 
     Config ,
     sleep
-    } = require('../lib'),teddyM = {"smd" : "suhail" }
+    } = require('../lib'),teddyM = {"smd" : "hitdev" }
 
 
 
