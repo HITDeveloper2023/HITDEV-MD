@@ -413,7 +413,17 @@ console.log("images results : " , n)
     body = body.slice(0, body.indexOf("</script>")-1);
     body = body.slice(0, body.lastIndexOf(","));
 
-    const img = JSON.parse(body);
+    console.log('Body content:', body);
+
+let img;
+try {
+    img = JSON.parse(body);
+} catch (error) {
+    console.error('Failed to parse JSON:', error);
+    console.error('Body content causing the error:', body);
+    // Gérez l'erreur en fonction de vos besoins
+}
+
 
     const imgObjects = img[56][1][0][0][1][0];
 
