@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@hitdevtechinfo">
-    <img alt="HITDEV-MD" height="400" src="/lib/assets/pk.jpg">
+    <img alt="HITDEV-MD" height="400" src="/lib/assets/hitdev.jpg">
   </a>
 </p>
     
