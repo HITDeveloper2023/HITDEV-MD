@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Hitdev Tech Info
+   * @author : HAITIAN IT Developer
    * @youtube : https://www.youtube.com/c/@HitdevTechInfo
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.3 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
+   * ┌┤Created By HAITIAN IT Developer.
    * © 2023  ✭ ⛥.
    * plugin update : 10/22/2023
 * 

@@ -17,13 +17,13 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
    * @project_name : HITDEV-MD
-   * @author : Hitdev Tech Info
+   * @author : HAITIAN IT Developer
    * @youtube : https://www.youtube.com/@HITDeveloper2023
    * @description : HITDEV-MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
-   * Created By Hitdev Tech Info.
+   * Created By HAITIAN IT Developer.
    * © 2024 HITDEV-MD.
 */
 
@@ -413,17 +413,7 @@ console.log("images results : " , n)
     body = body.slice(0, body.indexOf("</script>")-1);
     body = body.slice(0, body.lastIndexOf(","));
 
-    console.log('Body content:', body);
-
-let img;
-try {
-    img = JSON.parse(body);
-} catch (error) {
-    console.error('Failed to parse JSON:', error);
-    console.error('Body content causing the error:', body);
-    // Gérez l'erreur en fonction de vos besoins
-}
-
+    const img = JSON.parse(body);
 
     const imgObjects = img[56][1][0][0][1][0];
 

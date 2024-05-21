@@ -27,7 +27,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Hitdev Tech Info.
+   * ┌┤Created By HAITIAN IT Developer.
    * © 2023  ✭ ⛥.
    * plugin date : 18/12/2023
 * 
