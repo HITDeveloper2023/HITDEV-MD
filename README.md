@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@hitdevtechinfo">
-    <img alt="HITDEV-MD" height="400" src="/lib/assets/pk.jpg">
+    <img alt="HITDEV-MD" height="400" src="/lib/assets/hitdev.jpg">
   </a>
 </p>
     
@@ -80,25 +80,6 @@
   <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
 <p align="center">Need help? please create an <a href="https://github.com/HITDeveloper2023/HITDEV-MD/issues">issue</a></p>
-
- 
-
-
-
-## Bot Games
----
-1. ***Connect Four Game.***
-2.  ***Tic Tac Toe.***
-3.  ***Number Guessing Game.***
-4.  ***Word chain Game.***
-5.  ***Hidden Card Game.***
-6.  ***Rolling Dice.***
-7.  ***Character Guessing Game.***
-8.  ***Capital of City Finding.***
-##
-
-
- 
 
 
 

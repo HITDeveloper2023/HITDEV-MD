@@ -45,20 +45,20 @@ CURRENTLY RUNNING ON BETA VERSION!!
 const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 
-var surl = 'https://github.com/HitdevTechInfo/' // Source URL
+var surl = 'https://github.com/HitDeveloper 2023/' // Source URL
 const number = '50944727644'
-var name = ' Hitdev Tech'
+var name = 'HAITIAN IT Developer'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
 var image = 'https://telegra.ph/file/1e60489705c851f74b55e.jpg'
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │       「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」
-│ Name      : sυнαɪʟ ᴛᴇᴄʜ ɪиғօ
-│ Place       : ʟαнᴏʀᴇ ᴘᴋ
+│ Name      : Losisse Alberno
+│ Place     : Port-au-Prince, HAITI
 │ Gender    :  ᴍᴀʟᴇ
-│ Age          : 22_
+│ Age       : 24
 │ Phone     : wa.me/50944727644
-│ Youtube   : Youtube.com/c/HitdevTechInfo
-│ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+│ Youtube   : Youtube.com/c/Hitdev
+│ Status    : Web Developer, Graphic Designer
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
 
 
