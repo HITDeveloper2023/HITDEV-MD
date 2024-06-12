@@ -81,25 +81,6 @@
 </p>
 <p align="center">Need help? please create an <a href="https://github.com/HITDeveloper2023/HITDEV-MD/issues">issue</a></p>
 
- 
-
-
-
-## Bot Games
----
-1. ***Connect Four Game.***
-2.  ***Tic Tac Toe.***
-3.  ***Number Guessing Game.***
-4.  ***Word chain Game.***
-5.  ***Hidden Card Game.***
-6.  ***Rolling Dice.***
-7.  ***Character Guessing Game.***
-8.  ***Capital of City Finding.***
-##
-
-
- 
-
 
 
 
@@ -107,7 +88,7 @@
    
 ## Deployment Methods
 ---
-1.  ***Get `SESSION ID` by [`SCANING QR`](https://hitdev-md-vtsf.onrender.com/) Or [`PARING CODE`](https://hitdev-md-vtsf.onrender.com/code). Then `Go-to Whatapp>Three dots>Linked Devices`***
+1.  ***Get `SESSION ID` by [`SCANING QR`](https://hitdev-qr.onrender.com/) Or [`PARING CODE`](https://hitdev-qr.onrender.com/code). Then `Go-to Whatapp>Three dots>Linked Devices`***
 2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/4YEUtGlqkl4). `Optional`***
 3.  ***Click [`FORK`](https://github.com/HITDeveloper2023/HITDEV-MD/fork) and `Star ⭐ Repository` for Courage.***
 4.  ***Deploy FREE on `Codespace,` First watch tutorial [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)***
