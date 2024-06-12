@@ -28,7 +28,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * Licensed under the  GPL-3.0 License;
 * 
    * ┌┤Created By HAITIAN IT Developer.
-   * © 2023  ✭ ⛥.
+   * © 2024  ✭ ⛥.
    * plugin date : 3/28/2023
 **/
 let Owner = "Hitdev";

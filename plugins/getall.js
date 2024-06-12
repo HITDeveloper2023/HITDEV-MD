@@ -28,7 +28,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * Licensed under the  GPL-3.0 License;
 * 
    * ┌┤Created By HAITIAN IT Developer.
-   * © 2023  ✭ ⛥.
+   * © 2024  ✭ ⛥.
    * plugin date : 10/12/2023
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
