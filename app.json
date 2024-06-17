@@ -37,7 +37,7 @@
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
       "required" :false,    
-      "value": "false"
+      "value": "true"
     },     
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -56,12 +56,12 @@
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "HRKU-70f6c18a-4097-4bc7-bf03-e9362ae0bf68",
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
-      "value": "",
+      "value": "myfristbot",
     "required" :true
     }, 
     "WAPRESENCE": {
@@ -77,7 +77,7 @@
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
       "required" :false,
-      "value": "false"
+      "value": "true"
     },
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
@@ -99,7 +99,7 @@
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUZCOWwyZllrcnloY1NxSnVhWWRyZVFOc3BvdVE5ZzYxRmkzOEZwOWIybz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib1Iyb0psVWhVcEpSYk5aZXk2UUhjTnhRelloQ2VhN3dlWmRqVUk1RzRGQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXTDFpUHdlakRzUjhJOVhkc2hXZWhBTGc0TEFnSzNiVzVXRHpCYnhwcVZZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJdmRJd3ZianhVZU95MGhwQk1kTEhOZmpyMUc0YjRPU2NESVhuN1dIRkRZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFEbDIrY3Z5V09IVUJZekdpRUxCQ1hlM0FLa3ZaVXN0bVlKb3cvMVpzV2s9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFheVU5TFVHTkZTSVR2cFN5RlVaUFBPUGNXNTNaTUlGbVd0cXNjU1o0QmM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUx0S1VQeXM0dFpiY3NHYjlIaEE3YkNBV2hXeitIVVd4OE8vRUZzOHFIcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicDQvRUFIaTlOcW90MnB0Yjdtc01SQk1hU0E1UnNEbUhramoxK2s5ZUF6WT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlZVelNqV2pMSzREcWFMTkRHTFJiS1ZPSXM2am1JZ1RFaysxbVBKWEQ1U0hMaU8xOFhFNEJZVWZCaDNmSWo1SzlSUUlxVlcwQzFSazQvRXJiZ3FtWkNBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTgxLCJhZHZTZWNyZXRLZXkiOiJzOS9CRTh4SkpwbEJnQm9zTDRGREV4a0YxQ1BXcGc1NjVGK3pNVENucU1zPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJodmx6T0pyTFMzbTNMV3NqazI5MHNRIiwicGhvbmVJZCI6IjE1YmUwNWZlLWE2NDItNDUyYy1hOWVkLWU2OGRmMzkzYzk3NSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPazFCQkpWRGEzcTRwNnpYaFU4R0N0cUhPWFU9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUW9zUGY3aVk1Y0NnQXhDUEZVYlkxcmxBQVFJPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkZDMzhBREQxIiwibWUiOnsiaWQiOiI5MjMwMDg3NjM4MTY6NkBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSURpN1l3Q0VKYXF3TE1HR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVk5DV2dubW9SS3lKYjUwQmdDbDJXd2ZOTVVEaEJwenlHdTd2WHl0RzdETT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiaFJxbnhpRnVPZWpsaEs0bHN4SHp5MGh1NEp4bFpsamhWbmdjaU0vc0xxaXV6V0Z3VWVNWVJRZlhGcHBvNTI3d3BURlZJWlJDRDRFbE1wT3ZaMEVJQXc9PSIsImRldmljZVNpZ25hdHVyZSI6InFzcklMdjhDcVRpMmhZVXFsSkhNWEc4U1dpVGJVZWU3Qk5HdGczTHA1V0Y2NVBGOTdMUnl5VUd5K2V4UzBrQTZURXlTdEtBYXZyMFpmUmdsYmFzckF3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzMDA4NzYzODE2OjZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVlRRbG9KNXFFU3NpVytkQVlBcGRsc0h6VEZBNFFhYzhocnU3MThyUnV3eiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxODYyMTQ3OX0="
   
     },
     "OPENAI_API_KEY": {
