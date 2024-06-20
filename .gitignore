@@ -1,0 +1,28 @@
+# Ignorer les fichiers de log
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorer les répertoires de dépendances
+node_modules/
+
+# Ignorer les répertoires de de baileys
+auth_info_baileys/
+
+# Ignorer les répertoires de construction
+dist/
+build/
+
+# Ignorer les fichiers environnementaux
+.env
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+baileys_store.json
