@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting HITDEV-MD!"
+echo "Starting Hitdev-Md!"
 node .
 done

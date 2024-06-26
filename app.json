@@ -9,17 +9,17 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Hitdev Ser",
+      "value": "Mr Alberno",
       "required" :true
     },   
      
-    "WELCOME": {
+    "CAN_WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
       "value": "true",
       "required" :false
     },
      
-    "GOODBYE": {
+    "CAN_GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
       "value": "false",
       "required" :false

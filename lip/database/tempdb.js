@@ -3,8 +3,7 @@
   const TempDb = new mongoose.Schema({
     id: { type: String,  unique: true ,required: true, default:"Hitdev_Md"},
     creator: { type: String, default: "Hitdev" },
-    data: { type: Object, default: {} },
-    sdb: { type: Object, default: {} }
+    data: { type: Object, default: {} }
   });  
   const dbtemp = mongoose.model("dbtemp", TempDb)
   module.exports = { dbtemp }

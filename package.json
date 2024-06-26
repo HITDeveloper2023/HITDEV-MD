@@ -1,17 +1,17 @@
 {
    "name": "hitdev-md",
    "version": "1.0",
-   "description": "Multi device whatsapp bot by HITDeveloper2023.",
+   "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
             "run": "pm2 start . --deep-monitoring --attach --name Hitdev || node .",
-            "Hitdev": "pm2 start . --deep-monitoring --attach --name Hitdev || node .",
+            "hitdev": "pm2 start . --deep-monitoring --attach --name Hitdev || node .",
             "start": "pm2 start . --attach --name Hitdev",
             "stop": "pm2 stop Hitdev",
-            "heroku-postbuild": "git clone https://github.com/HITDeveloper2023/HITDEV-MD.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+            "old-heroku-postbuild": "git clone https://github.com/HITDeveloper2023/HITDEV-MD.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/HITDeveloper2023/HITDEV-MD.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
-            "postinstall": "npx puppeteer@latest install --y"
+            "dbs--postinstall": "npx puppeteer@latest install --y"
    },
    "author": "HITDeveloper2023",
    "license" :"Apache-2.0",
@@ -60,22 +60,22 @@
              "translatte": "^3.0.1",
              "util": "^0.12.4",
              "wa-sticker-formatter": "^4.3.2",
-             "youtubei.js": "^7.0.0",
-             "ytdl-secktor": "^0.0.1-development",
+             "youtubei.js": "latest",
+             "ytdl-secktor": "npm:ytdl-core@latest",
              "link-preview-js": "^3.0.0",
             "puppeteer": "latest"
    },
    "directories": {
       "lib": "lib",
-      "plugins" :"plugins"
+      "plugins" :"lib/plugins"
    },
    "devDependencies": {
       "pino": "^7.0.5"
    },
-   "repository": {
+   "--repository": {
       "type": "git",
       "url": "git+https://github.com/HITDeveloper2023/HITDEV-MD.git"
    },
-   "bugs": { "url": "https://github.com/HITDeveloper2023/HITDEV-MD/issues" },
-   "homepage": "https://github.com/HITDeveloper2023/HITDEV-MD#readme"
+   "--bugs": { "url": "https://github.com/HITDeveloper2023/HITDEV-MD/issues" },
+   "--homepage": "https://github.com/HITDeveloper2023/HITDEV-MD#readme"
 }
