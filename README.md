@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <a href="https://youtube.com/@hitdevtechinfo">
+  <a href="https://youtube.com/@hitdeveloper">
     <img alt="HITDEV-MD" height="400" src="/lib/assets/hitdev.jpg">
   </a>
 </p>
@@ -25,7 +25,7 @@
 
 
 
-  <a aria-label="Hitdev_Md is free to use" href="https://youtube.com/@hitdevtechinfo" target="_blank">
+  <a aria-label="Hitdev_Md is free to use" href="https://youtube.com/@hitdeveloper" target="_blank">
     <img alt="HITDeveloper2023 Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 

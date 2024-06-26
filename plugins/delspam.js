@@ -21,8 +21,8 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
-   * @author : Hitdev <https://github.com/HitdevTechInfo>
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @author : Hitdev <https://github.com/hitdeveloper>
+   * @youtube : https://www.youtube.com/c/@hitdeveloper
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.5 
 *

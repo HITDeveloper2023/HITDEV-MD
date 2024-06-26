@@ -21,7 +21,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
    * @author : HAITIAN IT Developer
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @youtube : https://www.youtube.com/c/@hitdeveloper
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.2 
 *
@@ -41,7 +41,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
 **/
 
 
-let HitdevTechInfo = "Owner";
+let hitdeveloper = "Owner";
 let DELCHAT = process.env.DELCHAT || "pm"; // "chat"
 /*
 cmd({

@@ -27,7 +27,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : 
    * @author : HAITIAN IT Developer
-   * @youtube : https://www.youtube.com/c/@HitdevTechInfo
+   * @youtube : https://www.youtube.com/c/@hitdeveloper
    * @infoription :  ,A Multi-functional whatsapp user bot.
    * @version 1.2.2 
 *
