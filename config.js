@@ -4,7 +4,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "" ;
+global.video= "video" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="hitdeveloper2023@gmail.com"
@@ -17,18 +17,18 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "America/Port-au-Prince";
-global.github=process.env.GITHUB|| "https://github.com/HITDeveloper2023/HITDEV-MD";
+global.github=process.env.GITHUB|| "https://github.com/Atiqkhan332211/HITDEV-MD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDAkV9FHWqAMMHvb40b";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDAkV9FHWqAMMHvb40b" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/09bb04e12ce3828e9cd2e.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "50944727644" // Developer Contact
+global.devs = "03409068757" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "50944727644";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "50944727644";
 
-
+ 
 
 
 //========================= [ BOT SETTINGS ] =========================\\
@@ -54,7 +54,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "50944727644,923xxxxxxxx";
 
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://hitdev-qr.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0xBYmhxL01SNE1DRUhoOXBTR0x5dkoxOTJxNkpZK0loUXVjZlhqNVMzdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibjV4bmJNNlJPQ0F3NTU3OUF5VUlNRkhvaVhNeFk2OGtHVmkzUlVWWjJIST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlRzB0RnNJNVp3UEM1UlB5SFhJVlE5aytISFJ3SnhpcXFqdzBJeDFVTm40PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOOGtsMCtwbytPL2pSSi91RjI1YkpXMXh5VzZvaS96K3dyUklxd09IdFZnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVBMlZJZjR0dWZtMG4yUDdLQk9DeEVLY1E0cjlmWmxpRUYzWjkxUVFsM0E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImE3cWRVbVVkaWo5R2VqQm95MXhXbEVHbVlmY05YY0RGcjN5alNVK0V2U1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0FwQldSOURwalhjTzNYSnBWejlBUDdjVGxMSytaemVYemcxRUFjNytuZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibzAybXpUa2Z3aHJ0a2lJSEIxTGN5TDRodjNXOVcvVEY5U3I2VHZkc1htaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVxRkNHcU5ORHdPWFF0ZnY1eUVRRDZIL3c4NU5hM1pMOTNGd0FxQU9kSDQzRUFIM1hucS9CS1FUK0ttUFdCdTdUMGlkaGhuOXJ5SHUzOFYwTnNLS0R3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjAwLCJhZHZTZWNyZXRLZXkiOiJEWHZnQUZvWkV2YVB5eXhmcGpjQXFSQWRXMUNRdTRwdDhGSEZIRUZVK1Z3PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI3Wk4xenZhdFJjbWRwSHc0NFR4V1V3IiwicGhvbmVJZCI6IjNiYmJlZjdiLTI0NDItNDdhMi1hMWE1LWExYzNkNWNkYzI0YiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqYTRYeWVHQ29iVW9WUVkxZkxMd1ByWm8reG89In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOTlxTCtKQkI4WFJBYXc5OUNlNGRjN1NuT1BzPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkxKM1JZMlBRIiwibWUiOnsiaWQiOiI5MjM0OTk4MzM2MDQ6NTFAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi8J2asPCdkJLwnZqz8J2aq/CdmrDwnZCLIPCdkIrwnZq48J2QiiJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUGFsOG9nSEVOMzh0TGdHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVHkzRGgrR29CUmF0OXd2anNVcnhQRXFiU2xqVWxpM2E1Ty90MkNla0ZtND0iLCJhY2NvdW50U2lnbmF0dXJlIjoiZXVrcytvRW5tMjBZTU9hOENyL0JyNU5PMDRwUkROeEliVEFMS0E2TmpLNnh2MFpjT1VqL09Pc1lGLzJHVmlkS0l1R05lc3V6czhiUVRBN3drR0xxQnc9PSIsImRldmljZVNpZ25hdHVyZSI6IjVteHIxTHRqcUhkeVBmc01RNHZUc3VUa1NIcWxMTC9zd082RWRSS2JXSHRnM21XOE55SG5Oc0xoZXFwTzk2WXZMR2tXZWhaV0Y4VlRwa0VJUFNadkN3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzNDk5ODMzNjA0OjUxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlU4dHc0ZmhxQVVXcmZjTDQ3Rks4VHhLbTBwWTFKWXQydVR2N2RnbnBCWnUifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3Mjg5MjExOTV9"
+global.SESSION_ID = process.env.SESSION_ID || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUs2Y3o3Wkhqb2hXUEppVXl5L1JUMUJLNEhzQ1N1UDJGTXpEVHRyTEVIMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVHZEVllRc24xUytWVm9SYWtXd2pqSWFlMnI2UkNoZEpLZ291Lzlvb3JSST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVSXcwOHRxTGNYYllLNjBlWU1zTDBXaHpOTjl6ZmdZeElWTmg0bEtDdlhzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrYUJ6UWRlZW5QSDJjclp4Z3c5eDVVRUJXOEx6Yk00dmhPVld5R3FjSzBFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1QQklNeWdDMThyN05PUk82dEh1b2c1WTJEZnUzVm0wN1ZGdDBsejlXVVE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpsUVF3OXorMCtJbkxRc1lmTmdVR0lYSWtiR3lmMjV5bFhSeXN1M2xPa1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkJ3R0VDWGM1SVU0cEVYMm9OalY4L3V0SHZnR3RLdGFnWnJtK3RTR2Zucz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSStPNDJKc1Z4TncwdHo2MTZ0TmpFYzFuZ1poa2g1dkVHcFFxSlJsQlZsRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBxejVOa1lIbUZUaFRoZTlkaGhYUWJISUJYcm41bHJNUGVqRUdOcjdyYmpQNGNqRUdOKzhObFd1TE5KQ0VSOUwzQ3IwUE0xZ0l4SmNMNVpiWGlyZ2l3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTAxLCJhZHZTZWNyZXRLZXkiOiJBbHlLbFA4c29KSTJiN1FWVWxHK2ltaFd1aUFGa1pIMjZKUmpyTGk5bUM0PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJSWUM2c21hVlF3LW5sektWbno2SkJ3IiwicGhvbmVJZCI6IjgzYzViZDkxLTVkNzItNDZiMi1iYjdhLThmYWI4MGQ5OGZmMSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJES1cycld6L1BRY2pLdGVmdENIaVFNOHd2VEk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiM0JqbVZ4RExiK0dReXNmWkZDbkJCYnhwSDVFPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjlLTkdFR0tCIiwibWUiOnsiaWQiOiI5MjM0MDkwNjg3NTc6ODhAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi2KfYqNmGINiz2YjYp9iq24wifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tYRjY4SUdFTXZ6dHJnR0dCMGdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InpkQm1YTWRTZHRXVTkzVGdna0pHaHVpQWpKSE9acm5lTnUxeUVabU02SG89IiwiYWNjb3VudFNpZ25hdHVyZSI6IkNEWi90OEhOMnFZUUJYejRFdjRBOThyYk5LblcwZ204dGR3TXlZUXRwb2VJRHF6UW41djN6SkxPRWZDQzdtc3JONWR5OVlEZ081VDJOeHRRYjYzQkJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJjODBUZmd5MnEyeE5ZbUs0eFdXQmszdTFaU0RQR2loR2JrMW03ZDJKRzBOb2pRdFVHSHpGdDM1WFo5MzVNZ3hrdVhianVSaVB1bkhXY3NQRm9NQ2VoQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzQwOTA2ODc1Nzo4OEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJjM1FabHpIVW5iVmxQZDA0SUpDUm9ib2dJeVJ6bWE1M2pidGNoR1pqT2g2In19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzI4OTUyNzkyLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU5ZdSJ9"
 module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: HITDEV-MD Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
@@ -74,8 +74,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "ʜɪᴛᴅᴇᴠ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Hitdev",
+  botname : process.env.BOT_NAME  || "khanswati-ᴍᴅ",
+  ownername:process.env.OWNER_NAME|| "It'x swati",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -83,13 +83,13 @@ module.exports = {
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "HRKU-82f5d130-fa7b-46bb-a281-8a664729d7f1",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "atiqkhanswati",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "HITDEV"  ).toUpperCase(),
 
 
