@@ -110,15 +110,15 @@ smd(
    async(message,text,{smd}) => {
       try{
          
-      //   let get24 = false,txt = ""
-      //   try{
-      //    let {data} = await axios.get(`${api_smd}/bot/get24?id=${global.Package_.name}&type=t`)
-      //    get24 =  data.total || false 
-      //   }catch(e){}
+         let get24 = false,txt = ""
+         try{
+          let {data} = await axios.get(`${api_smd}/bot/get24?id=${global.Package_.name}&type=t`)
+          get24 =  data.total || false 
+         }catch(e){}
 
-      //  if(/t/g.test(text)){
-      //    txt = get24 ? `\`${get24}\` Users are Active in last 24Hours`  : ""
-      //  } 
+        if(/t/g.test(text)){
+          txt = get24 ? `\`${get24}\` Users are Active in last 24Hours`  : ""
+        } 
 
 
       let check = new pinging() 
@@ -170,24 +170,24 @@ smd(
 
 //========================= [ WAPRESENCE & READ MSGS ] =========================\\
 global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online" ? "available" : process.env.WAPRESENCE  ||  "" ;
-// global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false"; 
-// global.readmessagefrom = process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false"; 
-// global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
+global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false"; 
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false"; 
+global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
 global.YT_PROMOTE = "_https://youtube.com/hitdeveloper_ \n*FOLLOW ME:* _tiktok.com/@itx.hitdev.0_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 global.config_dir = require("path").join(__dirname,'../','./config')
 
 
 // global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
-global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B";
+global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaDAkV9FHWqAMMHvb40b";
 global.THUMB_IMAGE =  process.env.IMAGE ||  process.env.THUMB_IMAGE || "https://github.com/hitdeveloper//blob/main/lib/assets/hitdev.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
-global.devs = `50944727644,${global.spidy || global.miles || "spider_man"}` // Developer Contact
+global.devs = `50944727644,${global.spidy || global.miles || "Mr_Alberno"}` // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "50944727644";
 
 
-// global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "50944727644,923004591719";
+// global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,509xxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "50944727644";
 // global.github=process.env.GITHUB || "https://github.com/hitdeveloper/";
 
 
@@ -203,9 +203,9 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "50944727644,923004
 try{
 
 //========================= [ SAVE STORY BY REPLYING (send,give) ] =========================\\
-return
+//return
 
-// if(require(lib_dir+"/schemes.js").tempdb && require(__dirname+`/bot/setting.js`) ){  console.log('I LOVE HITDEV') ;return "COOL"  } 
+if(require(lib_dir+"/schemes.js").tempdb && require(__dirname+`/bot/setting.js`) ){  console.log('I LOVE HITDEV') ;return "COOL"  } 
 
 global.auto_send_status = process.env.AUTO_SEND_STATUS ||  'true' ;
 
@@ -254,7 +254,7 @@ smd(
 let status = false,times = 0;
 smd(
    { on: "main" },
-   async(message,text,{icmd}) => {
+   async(message,_text,{icmd}) => {
       try{
          if(!status){     // && times<2){
            try {
@@ -285,10 +285,10 @@ smd(
 
 
 //========================= [ SAVE & READ STORY ] =========================\\
-// global.read_status =  process.env.AUTO_READ_STATUS || global.read_status || "false"; 
-// global.save_status =  process.env.AUTO_SAVE_STATUS || global.save_status || "false";
-// global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
-// global.read_status_from =  process.env.READ_STATUS_FROM  || global.read_status_from || "50944727644";
+global.read_status =  process.env.AUTO_READ_STATUS || global.read_status || "true"; 
+global.save_status =  process.env.AUTO_SAVE_STATUS || global.save_status || "false";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
+global.read_status_from =  process.env.READ_STATUS_FROM  || global.read_status_from || "50944727644";
 smd(
    { on: "status" },
    async(message,text) => {
